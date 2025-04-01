@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-container {
+  padding: 20px;
+}
+
+.heading-title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+h1 {
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(34, 34, 34);
+}
+
+.postcode__content {
+  display: flex;
+  gap: 20px;
+}
+
+.flex__left {
+  flex: 70%;
+}
+
+.flex__right {
+  border-top: 2px solid #6CAAD4;
+  flex: 30%;
+}
+
+@media (max-width: 800px) {
+  .postcode__content {
+    flex-direction: column;
+  }
+  
+  .flex__left, .flex__right {
+    flex: 100%;
+  }
+}

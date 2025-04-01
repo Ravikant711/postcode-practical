@@ -1,0 +1,20 @@
+.wrapper__container {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content__heading {
+  font-size: 14px;
+}
+
+.content__link {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content__link > a {
+  color: #6CAAD4;
+}
